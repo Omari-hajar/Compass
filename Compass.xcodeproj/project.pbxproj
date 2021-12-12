@@ -16,6 +16,7 @@
 		CC24DA4A2760D3DA00B2529B /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24DA492760D3DA00B2529B /* CompassTests.swift */; };
 		CC24DA542760D3DA00B2529B /* CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24DA532760D3DA00B2529B /* CompassUITests.swift */; };
 		CC24DA562760D3DA00B2529B /* CompassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24DA552760D3DA00B2529B /* CompassUITestsLaunchTests.swift */; };
+		CC39230727651DF500A086D3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39230627651DF500A086D3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC24DA4F2760D3DA00B2529B /* CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC24DA532760D3DA00B2529B /* CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITests.swift; sourceTree = "<group>"; };
 		CC24DA552760D3DA00B2529B /* CompassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC39230627651DF500A086D3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		CC24DA312760D3D700B2529B /* Compass */ = {
 			isa = PBXGroup;
 			children = (
+				CC3923442765260700A086D3 /* controllers */,
 				CC24DA322760D3D700B2529B /* AppDelegate.swift */,
 				CC24DA342760D3D700B2529B /* SceneDelegate.swift */,
-				CC24DA362760D3D700B2529B /* ViewController.swift */,
 				CC24DA382760D3D700B2529B /* Main.storyboard */,
 				CC24DA3B2760D3DA00B2529B /* Assets.xcassets */,
 				CC24DA3D2760D3DA00B2529B /* LaunchScreen.storyboard */,
@@ -125,6 +127,15 @@
 				CC24DA552760D3DA00B2529B /* CompassUITestsLaunchTests.swift */,
 			);
 			path = CompassUITests;
+			sourceTree = "<group>";
+		};
+		CC3923442765260700A086D3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC39230627651DF500A086D3 /* SecondViewController.swift */,
+				CC24DA362760D3D700B2529B /* ViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC39230727651DF500A086D3 /* SecondViewController.swift in Sources */,
 				CC24DA372760D3D700B2529B /* ViewController.swift in Sources */,
 				CC24DA332760D3D700B2529B /* AppDelegate.swift in Sources */,
 				CC24DA352760D3D700B2529B /* SceneDelegate.swift in Sources */,
